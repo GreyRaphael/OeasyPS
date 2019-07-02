@@ -5,6 +5,10 @@
   - [view](#view)
   - [Transform](#Transform)
   - [Crop](#Crop)
+  - [Selection](#Selection)
+    - [Marquee](#Marquee)
+    - [Laso](#Laso)
+    - [Magic wand](#Magic-wand)
 
 ## window
 
@@ -75,3 +79,51 @@ Example: 两张图片拼接到一张图中
 Example: 多张图拼接到一张图中(Recommended)
 1. File/Automate/Photomerge/OK
 > ![](example2/photomerge.png)
+
+## Selection
+
+### Marquee
+
+Shortcuts:
+- `m`: activate marquee
+- `Shift+M`: switch marquee
+- `Ctrl+D`: Deselect
+- `Ctrl+E`: Merge layers
+- `Ctrl+J`: Copy selection & paste to new layer
+
+Example: 去logo
+1. method1: 选区, 复制粘贴(`Ctrl+J`)
+2. method2: 选区, Alt移动粘贴
+3. method3: 选区, `Ctrl+T`变形覆盖
+
+Example: 修复缺的老照片
+- 选区, `Ctrl+T`变形覆盖
+
+Selection Operation:
+- `Shift`: 并集
+- `Alt`: 差集
+- `Shift+Alt`: 交集
+
+Selection Fill: 选区, Edit/Fill
+- Foreground color fill: `Alt+Del`, `Alt+Backspace`
+- Background color fill: `Ctrl+Del`, `Ctrl+Backspace`
+
+### Laso
+
+Shortcuts:
+- `L`: activate laso
+- `Shift+L`: switch laso
+- `Del`: 删除一个点
+- `Esc`: 删除全部的点
+> magnetic lasso: 最后一点双击，得到闭合选区
+
+### Magic wand
+
+Shortcuts:
+- `W`: activate wand
+
+Trick:
+- Tolerance
+- Continuous
+- Sample all layers: 下图包含三个图层
+  > <img src="example2/sample_all_layers.png" height="300">
