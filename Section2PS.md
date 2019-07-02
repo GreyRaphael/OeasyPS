@@ -71,3 +71,7 @@ Example: 两张图片拼接到一张图中
 2. pic2移动到pic1, 设置pic2的图层透明度
 3. 对准，然后恢复不透明度，就可以拼接
    > <img src="example2/pic3.png" height="400">
+
+Example: 多张图拼接到一张图中(Recommended)
+1. File/Automate/Photomerge/OK
+> ![](example2/photomerge.png)
