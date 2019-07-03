@@ -9,6 +9,8 @@
     - [Marquee](#Marquee)
     - [Laso](#Laso)
     - [Magic wand](#Magic-wand)
+    - [Feather](#Feather)
+    - [ColorRange](#ColorRange)
 
 ## window
 
@@ -127,3 +129,11 @@ Trick:
 - Continuous
 - Sample all layers: 下图包含三个图层
   > <img src="example2/sample_all_layers.png" height="300">
+
+### Feather
+
+羽化10px: 以选区边界为0, -10px~10px, 透明度从100%~0
+
+### ColorRange
+
+Selection/ColorRange
